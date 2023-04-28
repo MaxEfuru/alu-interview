@@ -9,7 +9,7 @@ Goo
 def pascal_triangle(n):
     
     """
-     Define pascal triangle function
+    Define pascal triangle function
      
     """
     
