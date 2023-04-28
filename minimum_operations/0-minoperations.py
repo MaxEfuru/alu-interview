@@ -15,7 +15,8 @@ def minOperations(n):
         n (int): the desired number of H characters
         
     Returns:
-        int: the minimum number of operations needed to achieve n H's in the file
+        int: the minimum number of operations needed to achieve n H's 
+        in the file
 
     Raises:
         None
@@ -30,5 +31,6 @@ def minOperations(n):
         return 0  # invalid input, impossible to achieve
     for i in range(2, n+1):
         if n % i == 0:
-            return minOperations(n//i) + i  # recursively compute minimum number of operations
+            return minOperations(n//i) + i  
+        # recursively compute minimum number of operations
     return 0  # n is prime or 1, impossible to achieve
