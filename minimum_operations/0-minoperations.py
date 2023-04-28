@@ -12,15 +12,12 @@ def minOperations(n):
     exactly n H characters in a text file.
 
     Args:
-        n (int): the desired number of H characters
-       
+        n (int): the desired number of H characters     
     Returns:
         int: the minimum number of operations needed to achieve n H's 
         in the file
-
     Raises:
         None
-
     Example:
         >>> minOperations(6)
         5
