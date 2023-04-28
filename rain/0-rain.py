@@ -7,10 +7,10 @@ Rain function in python
 
 def rain(walls):
   
-  """
-  begins here
+    """
+    begins here
   
-  """
+    """
   
     n = len(walls)
     if n == 0:
