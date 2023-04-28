@@ -5,13 +5,15 @@
 Goo
 """
 
+
 def minOperations(n):
     """
-    Calculates the fewest number of operations needed to result in exactly n H characters in a text file.
+    Calculates the fewest number of operations needed to result in 
+    exactly n H characters in a text file.
 
     Args:
         n (int): the desired number of H characters
-
+        
     Returns:
         int: the minimum number of operations needed to achieve n H's in the file
 
