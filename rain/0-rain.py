@@ -6,6 +6,7 @@ Rain function in python
 
 
 def rain(walls):
+    
     """
     begins here
     """
