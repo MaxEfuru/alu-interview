@@ -1,15 +1,13 @@
 #!/usr/bin/python3
 
 """
-Rain function in python 
-
+Rain function in python
 """
 
+
 def rain(walls):
-  
     """
     begins here
-  
     """
   
     n = len(walls)
