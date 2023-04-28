@@ -6,13 +6,10 @@ Goo
 """
 
 
-def pascal_triangle(n):
-    
+def pascal_triangle(n): 
     """
-    Define pascal triangle function
-     
+    Define pascal triangle function  
     """
-    
     if n <= 0:
         return []
     triangle = [[1]]
